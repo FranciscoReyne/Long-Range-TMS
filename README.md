@@ -1,5 +1,12 @@
 # Long-Range Transcranial Magnetic Stimulation (TMS)
 
+
+<p align="center">
+  
+<img src="Long-Range TMS.png" alt="Long-Range TMS" width="400"/>
+
+</p>
+
 ## Overview
 This project explores the development of a **Long-Range Transcranial Magnetic Stimulation (TMS) system**. Unlike conventional TMS devices that function effectively within 2 to 5 cm from the scalp, this system aims to operate beyond 2 meters.. The system leverages **neural networks** to analyze and predict the optimal **electromagnetic configurations** required for long-range operation.
 

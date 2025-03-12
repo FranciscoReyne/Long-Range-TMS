@@ -1,4 +1,4 @@
-# Long-Range Transcranial Magnetic Stimulation (TMS)
+# Long-Range Transcranial Magnetic Stimulation (LR-TMS)
 
 
 <p align="center">

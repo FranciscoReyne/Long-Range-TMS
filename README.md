@@ -15,14 +15,16 @@ pip install numpy scipy torch matplotlib
 ```
 
 ## Usage
+
 ```python
 python train_model.py
 ```
 
 ---
 
-# train_model.py
+# Python code: **train_model.py**
 
+```python
 import numpy as np
 import torch
 import torch.nn as nn
@@ -85,3 +87,7 @@ train()
 # Save model
 torch.save(model.state_dict(), "tms_model.pth")
 print("Model trained and saved successfully!")
+
+```
+
+Good luck !! 🚀

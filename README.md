@@ -98,3 +98,51 @@ print("Model trained and saved successfully!")
 ```
 
 Good luck !! 🚀
+
+# PARTE 2: 
+
+Sistema para la optimización de diseño electromagnético basado en aprendizaje automático y simulación. 
+
+## Algunas ideas para abordarlo incluyen:
+
+1. Aprendizaje Evolutivo + Redes Generativas (GANs)
+📌 Concepto:
+Utilizar algoritmos evolutivos o redes generativas adversarias (GANs) para explorar múltiples configuraciones de bobinas y circuitos.
+📌 Cómo funciona:
+
+Se generan miles de diseños de bobinas y circuitos en un entorno paramétrico 3D (como en OpenSCAD o Blender).
+Se simulan sus propiedades magnéticas con Método de Elementos Finitos (FEM) o Maxwell Equations Solver.
+Se optimizan las configuraciones con Genetic Algorithms (GA) o Bayesian Optimization.
+Se usa una GAN para aprender patrones de diseño eficientes.
+📌 Herramientas recomendadas:
+
+OpenSCAD + Python API → para generar modelos 3D.
+Elmer FEM o COMSOL → para simulaciones electromagnéticas.
+PyTorch/TensorFlow + GANs → para aprendizaje de formas óptimas.
+DEAP (Distributed Evolutionary Algorithms in Python) → para optimización evolutiva.
+2. Modelado Diferenciable con Deep Learning
+📌 Concepto:
+Entrenar una red neuronal diferencial que optimice el diseño en base a derivadas de campo magnético.
+📌 Cómo funciona:
+
+Se define una arquitectura de bobina en un entorno diferenciable (como DiffCAD).
+Se entrena una red neuronal para maximizar la intensidad de campo a 2 metros.
+Se aplican técnicas de Neural Implicit Representations (NeRF) para generar geometrías optimizadas.
+📌 Herramientas recomendadas:
+
+JAX (Google DeepMind) → para cálculos diferenciables.
+Neural Fields (SDF-based 3D representations) → para diseño paramétrico optimizado.
+Blender Python API + PyTorch3D → para visualización avanzada.
+3. Reinforcement Learning (RL) para Optimización de Diseño
+📌 Concepto:
+Formular el problema como un juego de exploración, donde un agente intenta mejorar el diseño en cada iteración.
+📌 Cómo funciona:
+
+Se usa un agente RL que prueba diferentes geometrías y configuraciones electrónicas.
+Cada diseño es simulado y recibe una recompensa basada en la intensidad del campo magnético en la distancia objetivo.
+Se usan técnicas como Deep Q-Networks (DQN) o Proximal Policy Optimization (PPO) para mejorar el diseño en cada iteración.
+📌 Herramientas recomendadas:
+
+Stable-Baselines3 (SB3) → para entrenar agentes RL.
+PyBullet / Mujoco → para simulaciones de campo electromagnético en entorno físico.
+Blender + RL API → para modelado dinámico.

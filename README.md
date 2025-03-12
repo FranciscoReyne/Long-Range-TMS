@@ -3,7 +3,7 @@
 
 <p align="center">
   
-<img src="Long-Range TMS.png" alt="Long-Range TMS" width="400"/>
+<img src="Long-Range TMS.png" alt="Long-Range TMS" width="280"/>
 
 </p>
 
